@@ -1,0 +1,27 @@
+
+/*n is the no. of natural number from one to n*/
+
+
+
+
+
+#include <stdio.h>
+
+
+int main()
+{
+  	int n, i;          
+  
+  	printf("\n Enter any Integer Value:");
+  	scanf("%d", &n);
+  	
+  	printf("Natural Numbers from 1 to %d are ",n);  	
+	for(i = 1; 
+        i <=n;
+        i=i+1)
+  	{
+    	printf("%d,",i);
+  	}
+  
+  	return 0;
+}
